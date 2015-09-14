@@ -11,5 +11,5 @@ I am geospatial expert by training currently transitioning into the world of dat
 ####Why data science?
 
 Because its a blend of programming, statistics, industry specific knowledge, mixed by the lateral thinking and sparkled with the curiosity of the mind. In short, its exciting. And I am not the only one thinking this way. Just google around for terms like "sexiest job of 21st century"  or "data is new oil". 
-Lin have gave much coherent description on [her blog](http://linbug.github.io/about/), if you want one.
+Lin gave much coherent description on [her blog](http://linbug.github.io/about/), if you want one.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First post using Jekyll
+title: Getting twitter to work
 tag: Jekyll, twitter
 category: blog
 comments: True

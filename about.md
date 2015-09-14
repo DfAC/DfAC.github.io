@@ -11,16 +11,18 @@ I am geospatial expert by training currently transitioning into the world of dat
 ####Why data science?
 
 Because its a blend of programming, statistics, industry specific knowledge, mixed by the lateral thinking and sparkled with the curiosity of the mind. In short, its exciting. And I am not the only one thinking this way. Just google around for terms like "sexiest job of 21st century"  or "data is new oil". 
+
+
 Lin gave much coherent description on [her blog](http://linbug.github.io/about/), if you want one.
 
 
-<a href="https://twitter.com/Yajirunokaze" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @Yajirunokaze</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 ###More info
 
 If you want some more information about me, below are few links:
 
-* [Github](https://github.com/settings/profile)
+* [Github](https://github.com/DfAC/)
 * [Stackoverflow](http://stackoverflow.com/users/3126969/dfac)
 * [linkedin](https://uk.linkedin.com/in/lukaszbonenberg)
+* <a href="https://twitter.com/Yajirunokaze" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @Yajirunokaze</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

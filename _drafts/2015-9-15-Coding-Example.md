@@ -5,7 +5,7 @@ tag: C, Matlab
 category: coding
 ---
 
-Quite a while back a friend asked me to write a Matlab code matching in speed following pseudo random code generator from C
+Quite a while back, while enjoying early stage of my PhD, a fellow sufferer, showed me a sample code he was working on in C. Both of us worked on GPS related issues and code was generating [pseduo-random code](http://www.trimble.com/gps_tutorial/sub_pseudo.aspx). In brief, this function is required by the receiver to decode incoming message from the specific satelite. Knowing its number I will know its k and from it I can generate local code (1024 bit long for GPS) which is then used to decode the message friend asked me to write a Matlab code matching in speed following pseudo random code generator from C
 
 
 ```C
@@ -24,22 +24,6 @@ Quite a while back a friend asked me to write a Matlab code matching in speed fo
 %
 */
 
-/*
-if nargin ~= 4
-    error('Incorrect number of input arguments')
-end
-
-clear rep_code;
-
-ca_code = GenerateCACode(PRN);
-code_phase_step = 1 / freq;
-tsz = max(size(t));
-for i=1:tsz;
-    idx = t(i) / code_phase_step;
-    rep_code(i) = ca_code(mod(floor(idx + offset),1023) + 1);
-end
-*/
-
 void GenerateReplicaCode(double rep_code[], int n, double sample_freq, double freq, double offset, int key[]) {
     int i;
     double code_phase_step = 1.0 / freq;
@@ -49,13 +33,6 @@ void GenerateReplicaCode(double rep_code[], int n, double sample_freq, double fr
         rep_code[i] = key[(int)(fdx + offset) % 1023];
     }
 }
-
-/*
-void timestwo(double y[], double x[])
-{
-  y[0] = 2.0*x[0];
-}
-*/
 
 void mexFunction( int nlhs, mxArray *plhs[],
                   int nrhs, const mxArray *prhs[] )
@@ -73,16 +50,7 @@ void mexFunction( int nlhs, mxArray *plhs[],
         mexErrMsgTxt("Too many output arguments");
     }
   
-    /* The input must be a noncomplex scalar double.*/
-    /*
-    mrows = mxGetM(prhs[0]);
-    ncols = mxGetN(prhs[0]);
-    if( !mxIsInteger(prhs[0]) || mxIsComplex(prhs[0]) ||
-        !(mrows==1 && ncols==1) ) {
-            mexErrMsgTxt("Input 1 must be a noncomplex scalar integer.");
-    }
-    */
-    
+
     n = (int)(mxGetScalar(prhs[0]) + 0.5);
     sample_freq = (double)(mxGetScalar(prhs[1]));
     freq = (double)(mxGetScalar(prhs[2]));

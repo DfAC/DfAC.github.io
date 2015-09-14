@@ -24,5 +24,5 @@ If you want some more information about me, below are few links:
 * [Github](https://github.com/DfAC/)
 * [Stackoverflow](http://stackoverflow.com/users/3126969/dfac)
 * [linkedin](https://uk.linkedin.com/in/lukaszbonenberg)
-* <a href="https://twitter.com/Yajirunokaze" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @Yajirunokaze</a>
+* <a href="https://twitter.com/Yajirunokaze" class="twitter-follow-button" data-show-count="false" data-size="large">Find me on twitter</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

@@ -2,7 +2,7 @@
 layout: post
 title: Know your language -- how to get the best out of the programming language
 tag: C, Matlab, GPS
-category: coding,blog
+category: coding, blog
 comments: True
 ---
 
@@ -21,7 +21,6 @@ What is the most interesting takeaway is that both of us benefited from this exe
 
 I attached both codes below.
 
-{% raw %} 
 ```matlab
 function [rep_code] = GenerateReplicaCode(n, sample_freq, freq, offset, key)
 
@@ -93,7 +92,6 @@ rep_code = [rep_code(rep_code<100) LastChip'];
 
 end %function
 ```
-{% endraw %}
 
 I based my Matlab implementation on the C code below. It is worth noticing that C code is using loop and hence is slow, it was subsequently tuned for high speed using some of the ideas that steamed from my Matlab implementation.
 

@@ -1,5 +1,8 @@
 # Dependencies
-markdown:      kramdown
+#markdown:      kramdown
+markdown: redcarpet
+#redcarpet:
+#  extensions: []
 highlighter:      pygments
 
 

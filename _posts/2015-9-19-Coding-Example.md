@@ -8,7 +8,7 @@ category: coding
 I created this blog with the main goal of describing my experience with Big Data. I have started to actively learning it nine months ago, by doing Cursera courses and participating in a [competition on Kaggle](https://www.kaggle.com/c/seizure-prediction). And I have just completed [Science to Data Science](http://www.s2ds.org/) course, allowing me to pull toghether all this knowledge in the practical project (more about it in later post, but if you are impatient my team mate Lin, [already blogged about it](http://linbug.github.io/data%20science/2015/09/10/Takeaways-from-S2DS/)).
 
 
-![GPS Satellite](https://en.wikipedia.org/wiki/File:GPS-IIRM.jpg)
+![](https://en.wikipedia.org/wiki/File:GPS-IIRM.jpg "GPS Satellite")
 
 
 One interesting insight that transposed from those events is the importance of knowing programming language and knowing it well. Quite a while back, while enjoying early stage of my PhD, a fellow sufferer discussed with me a code he was working on in C. Both of us worked on GPS related issues and code was generating [replica pseduo-random code](http://www.trimble.com/gps_tutorial/sub_pseudo.aspx). In brief, this is required by the receiver to decode incoming message from the specific satellite in order to decode distance (psuedorange) which allows received to provide the position. GPS is utilising [Gold Codes](https://en.wikipedia.org/wiki/Gold_code) famous for low cross-correlation.
@@ -20,7 +20,7 @@ What is the most interesting takeaway is that both of us benefited from this exe
 
 I attached both codes below.
 
-```Matlab
+```matlab
 
 function [rep_code] = GenerateReplicaCode(n, sample_freq, freq, offset, key)
 
@@ -90,7 +90,6 @@ rep_code=reshape(rep_code',1,[]);
 %remove all "skipped" chips and add tail
 rep_code = [rep_code(rep_code<100) LastChip'];
 
-
 end %function
 
 ```
@@ -100,7 +99,6 @@ I based my Matlab implementation on the C code below. It is worth noticing that 
 
 ```C
 #include "mex.h"
-
 /* function [rep_code] = GenerateReplicaCode(n, sample_freq, freq, offset, key) */
 
 /*

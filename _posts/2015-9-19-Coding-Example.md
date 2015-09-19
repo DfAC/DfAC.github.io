@@ -3,6 +3,9 @@ layout: post
 title: Know your language -- how to get the best out of the programming language
 tag: C, Matlab, GPS
 category: coding
+markdown: redcarpet
+redcarpet:
+  extensions: []
 ---
 
 I created this blog with the main goal of describing my experience with Big Data. I have started to actively learning it nine months ago, by doing Cursera courses and participating in a [competition on Kaggle](https://www.kaggle.com/c/seizure-prediction). And I have just completed [Science to Data Science](http://www.s2ds.org/) course, allowing me to pull toghether all this knowledge in the practical project (more about it in later post, but if you are impatient my team mate Lin, [already blogged about it](http://linbug.github.io/data%20science/2015/09/10/Takeaways-from-S2DS/)).

@@ -20,8 +20,8 @@ What is the most interesting takeaway is that both of us benefited from this exe
 
 I attached both codes below.
 
-```matlab
 
+```matlab
 function [rep_code] = GenerateReplicaCode(n, sample_freq, freq, offset, key)
 
 %
@@ -91,8 +91,8 @@ rep_code=reshape(rep_code',1,[]);
 rep_code = [rep_code(rep_code<100) LastChip'];
 
 end %function
-
 ```
+
 
 I based my Matlab implementation on the C code below. It is worth noticing that C code is using loop and hence is slow, it was subsequently tuned for high speed using some of the ideas that steamed from my Matlab implementation.
 

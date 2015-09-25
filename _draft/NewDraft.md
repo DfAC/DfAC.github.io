@@ -16,4 +16,7 @@ I have recently seen an interesting webminar about [deep learning](http://blog.f
 
 
 This intersting post about stats and outlayers https://speakerdeck.com/rosiebloxsom/anomaly-detection-with-python and followo with this https://speakerdeck.com/jakevdp/statistics-for-hackers
+http://blog.jupyter.org/2015/05/07/rendering-notebooks-on-github/ + adding refresh
+
+http://stackoverflow.com/questions/19744286/hosting-ipython-notebooks-on-github
 

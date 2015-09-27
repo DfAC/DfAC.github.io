@@ -20,3 +20,21 @@ http://blog.jupyter.org/2015/05/07/rendering-notebooks-on-github/ + adding refre
 
 http://stackoverflow.com/questions/19744286/hosting-ipython-notebooks-on-github
 
+
+##Business presentation
+ <https://blog.slideshare.net/2015/08/03/7-steps-to-outline-your-next-business-presentation>
+* use storytelling approach
+	* establish right mood
+	* define story character, it can be a company, client, product, service, ect
+	* conflict -- What’s preventing the audience or the hero from experiencing a happy ending?
+	* journey
+	* cliffhanger
+	* resolution
+* give a proper finish
+	* make it conversational, interesting and memorable
+	* "now what?"
+		* be specific, focus on ONE action
+		* make it easy to take this action
+	* conclude with the battle cry
+	* + add this presentation https://speakerdeck.com/rosiebloxsom/anomaly-detection-with-python
+

@@ -1,4 +1,6 @@
-Where can I get free Big Data books?
+#Getting pip working for Windows
+
+<http://cowboyprogrammer.org/building-python-wheels-for-windows/>
 
 
 A few interesting links regarding ipyhton:

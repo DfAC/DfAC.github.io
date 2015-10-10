@@ -42,13 +42,14 @@ I hope this convinced you. Let me know, in comments below, if you have any more 
 
 ##Rendering knitr
 
-I tended to use http://rpubs.com/ to get my R knitr online. It has one major benefit -  publishing directly [from RStudio](https://rpubs.com/about/getting-started) which makes things easy. The disadvantage:
+I tended to use <http://rpubs.com/> to get my R knitr online. It has one major benefit -  publishing directly [from RStudio](https://rpubs.com/about/getting-started) which makes things easy. The disadvantage:
 
 * no direct link to gihub
-* update is a two step process: update to http://rpubs.com/ and gihub
+* update is a two step process: update to rpubs.com and gihub
 * there is no link between your code and rpubs.com if you swap computers, making updates annoying
 
 Initially, I solved this problem by adding [git hub link to my R code](http://rpubs.com/DfAC/as2). Recently I found a better approach via <https://gitcdn.xyz/.
+
 * I commit my code to github including html render from knitr
 * To use latest html I will use <https://cdn.gitcdn.xyz/cdn/USER_NAME/REPO_NAME/master/path2file/file.name
 	* for example <https://cdn.gitcdn.xyz/cdn/DfAC/ReproducibleResearch/master/PA_2.html>

@@ -42,6 +42,17 @@ I hope this convinced you. Let me know, in comments below, if you have any more 
 
 ##Rendering knitr
 
-R knitr can be published via http://rpubs.com/ which [looks very much like nbviewer](http://rpubs.com/DfAC/as2) and allows to publish [directly from RStudio](https://rpubs.com/about/getting-started) which makes things easy. Unfortunately it does not allow for easy integration with github. Code will be [kept separately](https://github.com/DfAC/ReproducibleResearch/blob/master/PA_2.Rmd).
+I tended to use http://rpubs.com/ to get my R knitr online. It has one major benefit -  publishing directly [from RStudio](https://rpubs.com/about/getting-started) which makes things easy. Unfornately it did not allow a direct link to my github code. The disadvantage:
 
-This has limited my interest in R knitr, as I couldn't just edit my github code online. This might be changing as [this article](http://www.r-bloggers.com/ipython-markdown-opportunities-in-ipython-notebooks-and-rstudio/) report that R code can be run directly in the jupyter. On my to do list.
+* no direct link to gihub
+* update is a two step process: update to http://rpubs.com/ and gihub
+* there is no link between your code and rpubs.com if you swap computers, making updates annoying
+
+Initially, I solved this problem by adding [git hub link to my R code](http://rpubs.com/DfAC/as2). Recently I found a better approach via <https://gitcdn.xyz/.
+* I commit my code to github including html render from knitr
+* To use latest html I will use <https://cdn.gitcdn.xyz/cdn/USER_NAME/REPO_NAME/master/path2file/file.name
+	* for example <https://cdn.gitcdn.xyz/cdn/DfAC/ReproducibleResearch/master/PA_2.html>
+* To share specific commit I will use https://gitcdn.xyz/ directly
+	* for example <https://cdn.gitcdn.xyz/cdn/DfAC/ReproducibleResearch/a919360e064e1bc47a8e18e979223abfbc685934/PA_2.html>
+
+Even more interesting, [this article](http://www.r-bloggers.com/ipython-markdown-opportunities-in-ipython-notebooks-and-rstudio/) report that R code can be run directly in the jupyter. On my to do list.

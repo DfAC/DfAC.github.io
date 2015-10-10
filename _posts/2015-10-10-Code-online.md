@@ -42,7 +42,7 @@ I hope this convinced you. Let me know, in comments below, if you have any more 
 
 ##Rendering knitr
 
-I tended to use http://rpubs.com/ to get my R knitr online. It has one major benefit -  publishing directly [from RStudio](https://rpubs.com/about/getting-started) which makes things easy. Unfornately it did not allow a direct link to my github code. The disadvantage:
+I tended to use http://rpubs.com/ to get my R knitr online. It has one major benefit -  publishing directly [from RStudio](https://rpubs.com/about/getting-started) which makes things easy. The disadvantage:
 
 * no direct link to gihub
 * update is a two step process: update to http://rpubs.com/ and gihub

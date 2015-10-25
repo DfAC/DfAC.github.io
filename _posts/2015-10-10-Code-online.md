@@ -48,7 +48,7 @@ I tended to use <http://rpubs.com/> to get my R knitr online. It has one major b
 * update is a two step process: update to rpubs.com and gihub
 * there is no link between your code and rpubs.com if you swap computers, making updates annoying
 
-Initially, I solved this problem by adding [git hub link to my R code](http://rpubs.com/DfAC/as2). Recently I found a better approach via <https://gitcdn.xyz/.
+Initially, I solved this problem by adding [git hub link to my R code](http://rpubs.com/DfAC/as2). Recently I found a better approach via <https://gitcdn.xyz/>.
 
 * I commit my code to github including html render from knitr
 * <s>To use latest html I will use https://cdn.gitcdn.xyz/cdn/USER_NAME/REPO_NAME/master/path2file/file.name

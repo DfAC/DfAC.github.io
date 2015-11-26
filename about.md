@@ -12,7 +12,7 @@ I have completed my PhD at [the University of Nottingham](http://www.nottingham.
 
 I currently work at the University of Nottingham.
 
-####So why (data science)[https://en.wikipedia.org/wiki/Data_science]?
+####So why [data science](https://en.wikipedia.org/wiki/Data_science)?
 
 Because its a blend of programming, statistics, industry specific knowledge, mixed by the lateral thinking and sparkled with the curiosity of the mind. In short, its exciting. And I am not the only one thinking this way. 
 

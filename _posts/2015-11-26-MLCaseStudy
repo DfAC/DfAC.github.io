@@ -8,7 +8,6 @@ comments: True
 
 Recently I found yet another machine learning course at Coursera - [**Machine Learning Foundations: A Case Study Approach**](https://www.coursera.org/learn/ml-foundations/home/welcome), which seems to focus on case studies not actual techniques. This is similar to [Foundations of strategic business analytics course](https://www.coursera.org/learn/strategic-business-analytics/home/welcome), repo for which you [can find on my github](https://github.com/DfAC/StrategicBusinessAnalytics), yet seems to offer more solid background in ML. I do like this approach as it allows to see the big picture and understand better a end product.
 
-
 ##Getting started
 
 Course is based on the python commercial package by <https://dato.com/> called **GraphLab Create** - free for one year for academic and learning purpose. It is similar to **pandas**, with more support for online platforms.

@@ -6,14 +6,21 @@ permalink: /about/
 
 ####Who am I?
 
-I am geospatial expert by training currently transitioning into the world of data science. Within last 13 years I have worked various [academic](http://www.researchgate.net/profile/Lukasz_Bonenberg) and civil engineering industry problems, including [improvement to GPS precise positioning](http://www.researchgate.net/publication/264858490_Closely-coupled_Integration_of_Locata_and_GPS_for_Engineering_Applications). I currently work at the University of Nottingham.
+I am geospatial expert by training currently transitioning into the world of data science. Within last 13 years I have worked on number of civil engineering industry problems including geodesy, precise positioning and GIS. Five years ago I transited back into [academia](http://www.researchgate.net/profile/Lukasz_Bonenberg). 
 
-####Why data science?
+I have completed my PhD at [the University of Nottingham](http://www.nottingham.ac.uk/) researching  [improvement to GPS precise positioning using additional sensors](http://www.researchgate.net/publication/264858490_Closely-coupled_Integration_of_Locata_and_GPS_for_Engineering_Applications). Technology I used was created by [Australian start-up](http://www.locata.com/technology/locata-tech-explained/how-is-locata-like-gps/) leading to my interest into disruptive technology, start-ups and data science. I think the first victim was Matlab - I ditch it for python and R.
 
-Because its a blend of programming, statistics, industry specific knowledge, mixed by the lateral thinking and sparkled with the curiosity of the mind. In short, its exciting. And I am not the only one thinking this way. Just google around for terms like "sexiest job of 21st century"  or "data is new oil". 
+I currently work at the University of Nottingham.
 
+####So why (data science)[https://en.wikipedia.org/wiki/Data_science]?
 
-Lin gave much more coherent description on [her blog](http://linbug.github.io/about/), if you want one.
+Because its a blend of programming, statistics, industry specific knowledge, mixed by the lateral thinking and sparkled with the curiosity of the mind. In short, its exciting. And I am not the only one thinking this way. 
+
+How does it relate to my interest described above? Data science is multi disciplinary, relaying on industry-related knowledge, yet in the same time it is highly disruptive. Just see how many [Ycombinator](https://www.ycombinator.com/) startups has data science at heart.
+Data science is not a magical black box. There is a lot of research, knowledge and hard work backing it up, or anybody trying to use it successfully.
+
+Want more information? Just google for terms like "sexiest job of 21st century"  or "data is new oil". If you cant be bother to google, read [Lin's blog](http://linbug.github.io).
+
 
 
 

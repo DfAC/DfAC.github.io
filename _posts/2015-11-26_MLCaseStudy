@@ -1,0 +1,23 @@
+---
+layout: post
+title: Machine Learning Case Study, Intro
+tag: ipython, ML
+category: blog
+comments: True
+---
+
+Recently I found yet another machine learning course at Coursera - [**Machine Learning Foundations: A Case Study Approach**](https://www.coursera.org/learn/ml-foundations/home/welcome), which seems to focus on case studies not actual techniques. This is similar to [Foundations of strategic business analytics course](https://www.coursera.org/learn/strategic-business-analytics/home/welcome), repo for which you [can find on my github](https://github.com/DfAC/StrategicBusinessAnalytics), yet seems to offer more solid background in ML. 
+I do like this approach as it allows to see the big picture and understand better a end product.
+
+It does require additional commercial package by <https://dato.com/> - free for one year for academic and learning purpose. I installed it into my existing Anaconda using [this setup](https://dato.com/download/install-graphlab-create-command-line.html). Which can be summarised below as:
+
+ ```
+# Create a new conda environment with Python 2.7.x
+conda create -n dato-env python=2.7 anaconda
+# Activate the conda environment
+activate dato-env
+pip install --upgrade --no-cache-dir https://get.dato.com/GraphLab-Create/1.7.1/email/LicenseNo/GraphLab-Create-License.tar.gz
+conda update ipython ipython-notebook
+```
+
+I will keep you posted how the course goes.

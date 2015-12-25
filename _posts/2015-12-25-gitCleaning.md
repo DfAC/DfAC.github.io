@@ -15,14 +15,20 @@ cd your-repo-dir\
 java -jar bfg.jar --strip-blobs-bigger-than 30M
 ```
 
-This will not remove the files, it merely makes it for deletion. To alter your database
+This will not remove the files, it merely makes it for deletion. To alter your database you need to prune database yourself
+
+```
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+```
+
+
 
 ##Aliases in DOS
 
 As a side note above code can be simplified using aliases. Following [this post](http://superuser.com/questions/560519/how-to-set-an-alias-in-windows-command-line) all you need to do is
 
 ```
-doskey bfg="java -jar d:\tmp\Dropbox\Programming\skrypty\bfg-1.12.8.jar"
+doskey bfg="java -jar d:\DIR-to-SOFT\bfg-1.12.8.jar"
 doskey /MACROS:ALL
 ```
 And then above code becomes 
@@ -35,14 +41,17 @@ For more info check `doskey /?`.
 
 ##Running it against git hub
 
-This approach will not work if your code is already on remote repo (for ex github). As above approach change history, you wont be able to `push` and `pull` will just restore your changes.
-Instead we need to make a local bare repo, change it and then push, as in code below
+This approach will not work if the history you are chanching is already on remote repo (for ex github). As above approach change history, you wont be able to `push` and `pull` will just restore your changes.
+Instead we need to make a local bare repo, pack it, change it and then push. A bit more work indeed, yet we usuall as in code below
 
 ```
 git clone --mirror git://example.com/some-big-repo.git
-bfg --strip-blobs-bigger-than 30M
-bfg --strip-blobs-bigger-than 30M
+cd some-big-repo.git
+git gc --auto
+git repack -d -l
+bfg -b 30M
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
 git push
 ```
 
-This will shrink both local and remote copy.
+This will force push to master and shrink both local and remote copy.

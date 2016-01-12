@@ -13,3 +13,4 @@ cd your-repo-dir\
 java -jar bfg.jar --strip-blobs-bigger-than 30M
 ```
 
+Some [dont like markdown](http://www.adamhyde.net/whats-wrong-with-markdown/).

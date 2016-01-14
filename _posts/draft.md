@@ -14,3 +14,4 @@ java -jar bfg.jar --strip-blobs-bigger-than 30M
 ```
 
 Some [dont like markdown](http://www.adamhyde.net/whats-wrong-with-markdown/).
+[converting into Word](http://rmarkdown.rstudio.com/articles_docx.html).

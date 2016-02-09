@@ -8,7 +8,8 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+#relative_permalinks: true #This setting is deprecated as has been removed from the latest version of Jekyll (1/02/16)
+
 
 # Setup
 title:            DfAC blog
@@ -49,7 +50,7 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:
+disqus: LKB
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:

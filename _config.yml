@@ -1,6 +1,6 @@
 # Dependencies
-#markdown:      kramdown
-markdown: redcarpet
+markdown:      kramdown
+#markdown: redcarpet #not be supported on GitHub Pages after May 1s
 #redcarpet:
 #  extensions: []
 highlighter:      pygments

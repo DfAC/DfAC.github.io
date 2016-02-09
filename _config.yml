@@ -9,7 +9,8 @@ gems:
 #markdown: redcarpet #not be supported on GitHub Pages after May 1s
 #redcarpet:
 #  extensions: []
-highlighter:      pygments
+highlighter:     rouge
+#highlighter: pygments #'pygments' highlighter is currently unsupported on GitHub Pages
 
 
 # Permalinks

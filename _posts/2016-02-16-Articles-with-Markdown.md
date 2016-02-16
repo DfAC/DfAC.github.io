@@ -114,7 +114,7 @@ pandoc ATPreport.rmd --filter=pandoc-citeproc --biblio=refs.bib --csl=emerald-ha
 ```
 
 
-Results are same as with RStudio apart from R code reduced to static text. I would strongly recommend playing with **pandoc**. Amount of different formats it can output is [simply amazing](http://pandoc.org/demos.html). For anybody experimenting with **cls** styles [this repo should be very helpful](https://github.com/KurtPfeifle/pandoc-csl-testing)
+Results are same as with RStudio apart from R code reduced to static text. I would strongly recommend playing with **pandoc**. Amount of different formats it can output is [simply amazing](http://pandoc.org/demos.html). For anybody experimenting with **cls** styles [this repo should be very helpful](https://github.com/KurtPfeifle/pandoc-csl-testing).
 
 
 ## Summary

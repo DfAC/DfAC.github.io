@@ -4,9 +4,9 @@ kramdown:
    input: Markdown #GFM
    hard_wrap: false
      parse_block_html: true #fix problems with footnotes and rmd headers display 
-gems:
-- jekyll-coffeescript
-- jekyll-paginate
+# gems:
+# - jekyll-coffeescript
+# - jekyll-paginate
 #- github-pages # auto refresh pages, need to install it though
 #markdown: redcarpet #not be supported on GitHub Pages after May 1s
 #redcarpet:

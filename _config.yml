@@ -3,6 +3,7 @@ markdown:      kramdown
 kramdown:
    input: Markdown #GFM
    hard_wrap: false
+     parse_block_html: true #fix problems with footnotes and rmd headers display 
 gems:
 - jekyll-coffeescript
 - jekyll-paginate

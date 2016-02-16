@@ -106,7 +106,7 @@ csl: emerald-harvard.csl
 
 [**Pandoc**](http://pandoc.org/) is a conversion engine behind R markdown and knit. Just to see full picture I decided to compile my document without RStudio directly in **pandoc**.
 
-**Pandoc** recognise citations and cross sections as well as utilise docx template. To compile my document you need to use the following command:[^1]
+**Pandoc** recognise citations and cross sections as well as utilise docx template. To compile my document you need to use the following command: [^1]
 
 ```
 pandoc ATPreport.rmd --filter=pandoc-citeproc --biblio=refs.bib --csl=emerald-harvard.csl --reference-docx=template.docx --highlight-style=pygments --output=report.docx
@@ -121,7 +121,17 @@ Results are same as with RStudio apart from R code reduced to static text. I wou
 
 This approach worked really well allowing me to focus directly on writing text (with references) and not being distracted by compiling errors or missing brackets. As I was using RStudio I could also generate few simple plots from data.
 
-What I want to do next is to generate similar output in PDF using Latex. No short cuts this time.
+What I want to do next is to generate similar output in PDF using Latex. No short cuts this time [^1].
 
 
+This is some text.[^other-note]. Other text.[^footnote].
+
+[^footnote]:
+    > Blockquotes can be in a footnote.
+
+        as well as code blocks
+
+    or, naturally, simple paragraphs.
+
+[^other-note]:       no code block here (spaces are stripped away)
 [^1]: You can replace = with ' ' but you can't mix it.

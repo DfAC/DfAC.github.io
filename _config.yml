@@ -1,5 +1,5 @@
 # Dependencies
-markdown:      kramdown
+# markdown:      kramdown
 kramdown:
    input: Markdown #GFM
    hard_wrap: false

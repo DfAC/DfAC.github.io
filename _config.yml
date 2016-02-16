@@ -7,8 +7,7 @@ kramdown:
 gems:
 - jekyll-coffeescript
 - jekyll-paginate
-- github-pages 
-# auto refresh pages
+#- github-pages # auto refresh pages, need to install it though
 #markdown: redcarpet #not be supported on GitHub Pages after May 1s
 #redcarpet:
 #  extensions: []

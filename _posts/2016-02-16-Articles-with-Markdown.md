@@ -52,7 +52,7 @@ Another aspect have been covered already [@Felder2012;@Taylor2011;@Fry2008].
 * Amend R markdown (rmd) header
 ```
 ---
-title: "Efficient teaching of CAD software to the large class of engineering student"
+title: "Efficient teaching to the large class of engineering student"
 author: "Lukasz K Bonenberg"
 output:
   html_document:
@@ -72,8 +72,9 @@ csl: emerald-harvard.csl
 A next stage was to create Latex template and kit to Latex. This is when I decided to take short-cut via dark side. With this setting it is extremely easy to output to [Word](http://blog.rolffredheim.com/2013/02/reproducible-research-with-r-knitr.html). This ouptut can be modified by the use of [templates](http://rmarkdown.rstudio.com/articles_docx.html). All you need to do is to amend the header
 
 ```
+
 ---
-title: "Efficient teaching of CAD software to the large class of engineering student"
+title: "Efficient teaching to the large class of engineering student"
 author: "Lukasz K Bonenberg"
 output:
   word_document:
@@ -82,13 +83,14 @@ output:
 bibliography: refs.bib
 csl: emerald-harvard.csl
 ---
+
 ```
 
 And create output word document. You can then edit document to your liking, rename it *template.docx* and knit nice looking output. It will also compile any latex equations or included graphics properly.
 
 ```
----
-title: "Efficient teaching of CAD software to the large class of engineering student"
+ ---
+title: "Efficient teaching to the large class of engineering student"
 author: "Lukasz K Bonenberg"
 output:
   word_document:
@@ -97,7 +99,7 @@ output:
     reference_docx: template.docx
 bibliography: refs.bib
 csl: emerald-harvard.csl
----
+ ---
 ```
 
 ## Take two - pandoc

@@ -49,9 +49,8 @@ I followed their approach quite literary with bibtex document created using [Jab
 As covered in previous research [@Nicometo2010]. @Nicometo2010 discussed that as well. 
 Another aspect have been covered already [@Felder2012;@Taylor2011;@Fry2008].
 ```
-* Amend R markdown (rmd) header
+* Amend R markdown (rmd) header (don't forget surounding --)
 ```
----
 title: "Efficient teaching to the large class of engineering student"
 author: "Lukasz K Bonenberg"
 output:
@@ -61,7 +60,6 @@ output:
     toc: yes
 bibliography: refs.bib
 csl: emerald-harvard.csl
----
 ```
 * Kit in in RStudio
 
@@ -73,7 +71,6 @@ A next stage was to create Latex template and kit to Latex. This is when I decid
 
 ```
 
----
 title: "Efficient teaching to the large class of engineering student"
 author: "Lukasz K Bonenberg"
 output:
@@ -82,14 +79,12 @@ output:
     highlight: pygments
 bibliography: refs.bib
 csl: emerald-harvard.csl
----
 
 ```
 
 And create output word document. You can then edit document to your liking, rename it *template.docx* and knit nice looking output. It will also compile any latex equations or included graphics properly.
 
 ```
- ---
 title: "Efficient teaching to the large class of engineering student"
 author: "Lukasz K Bonenberg"
 output:
@@ -99,7 +94,7 @@ output:
     reference_docx: template.docx
 bibliography: refs.bib
 csl: emerald-harvard.csl
- ---
+
 ```
 
 ## Take two - pandoc

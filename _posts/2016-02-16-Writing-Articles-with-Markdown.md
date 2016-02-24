@@ -90,7 +90,7 @@ csl: emerald-harvard.csl
 
 And create output word document. You can then edit document to your liking, rename it *template.docx* and knit nice looking output. It will also compile any latex equations or included graphics properly.
 
-```
+```r
 ---
 title: "Efficient teaching to the large class of engineering student"
 author: "Lukasz K Bonenberg"
@@ -110,7 +110,7 @@ csl: emerald-harvard.csl
 
 **Pandoc** recognise citations and cross sections as well as utilise docx template. To compile my document you need to use the following command: [^1]
 
-```
+```sh
 pandoc ATPreport.rmd --filter=pandoc-citeproc --biblio=refs.bib --csl=emerald-harvard.csl --reference-docx=template.docx --highlight-style=pygments --output=report.docx
   
 ```

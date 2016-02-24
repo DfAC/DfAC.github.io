@@ -6,8 +6,6 @@ category: blog
 comments: True
 ---
 
-# Converting R code to API 
-
 
 I just came back from a local R meeetup and a great talk by [talk by Mark Sellors from Mango Solution](http://www.slideshare.net/sellorm/creating-apis-with-r-and-plumber-57608851). This is first time I heard about  [Plumber](http://plumber.trestletech.com/), which allows to convert your existing R code into an API by adding a few lines of comments to the existing code - very similar in approach to what [roxygen](http://roxygen.org/) auto-generation of user documentation directly from the source code. 
 
@@ -20,7 +18,7 @@ This API can output values and graphs as well, as this [example shows](http://pl
 * it is not secure, as anybody can call your API
 * Input sanitisation
 	* plumber is treating any input as text, so you need to cast it before using it
-	* more critical are any injection attacks, for example [SQL injections](http://www.slideshare.net/billkarwin/sql-injection-myths-and-fallacies) popularised in [xkcd](http://xkcd.com/327/)
+	* more critical are any injection attacks, for example [SQL injections](http://www.slideshare.net/billkarwin/sql-injection-myths-and-fallacies) popularised by [this xkcd webcomic](http://xkcd.com/327/)
 * you need to manage and organise logging and monitoring
 	* if you unix user tools like [monit](https://mmonit.com/monit/) can help
 * the load balancing and state are taken care of yet it is possible to block your API with long calls - make sure functions are quick to execute

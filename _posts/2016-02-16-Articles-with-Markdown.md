@@ -45,12 +45,16 @@ including discussion about [adding references](http://rmarkdown.rstudio.com/auth
 I followed their approach quite literary with bibtex document created using [JabRef](https://github.com/JabRef/jabref) and downloaded cls from <https://www.zotero.org/styles>. All you need now is:
 
 * Add citations in the text itself
-```
+
+```md
 As covered in previous research [@Nicometo2010]. @Nicometo2010 discussed that as well. 
 Another aspect have been covered already [@Felder2012;@Taylor2011;@Fry2008].
 ```
-* Amend R markdown (rmd) header (don't forget surounding --)
-```
+
+* Amend R markdown (rmd) header
+
+```r
+---
 title: "Efficient teaching to the large class of engineering student"
 author: "Lukasz K Bonenberg"
 output:
@@ -60,7 +64,9 @@ output:
     toc: yes
 bibliography: refs.bib
 csl: emerald-harvard.csl
+---
 ```
+
 * Kit in in RStudio
 
 
@@ -69,8 +75,8 @@ csl: emerald-harvard.csl
 
 A next stage was to create Latex template and kit to Latex. This is when I decided to take short-cut via dark side. With this setting it is extremely easy to output to [Word](http://blog.rolffredheim.com/2013/02/reproducible-research-with-r-knitr.html). This ouptut can be modified by the use of [templates](http://rmarkdown.rstudio.com/articles_docx.html). All you need to do is to amend the header
 
-```
-
+```r
+---
 title: "Efficient teaching to the large class of engineering student"
 author: "Lukasz K Bonenberg"
 output:
@@ -79,12 +85,13 @@ output:
     highlight: pygments
 bibliography: refs.bib
 csl: emerald-harvard.csl
-
+---
 ```
 
 And create output word document. You can then edit document to your liking, rename it *template.docx* and knit nice looking output. It will also compile any latex equations or included graphics properly.
 
 ```
+---
 title: "Efficient teaching to the large class of engineering student"
 author: "Lukasz K Bonenberg"
 output:
@@ -94,7 +101,7 @@ output:
     reference_docx: template.docx
 bibliography: refs.bib
 csl: emerald-harvard.csl
-
+---
 ```
 
 ## Take two - pandoc

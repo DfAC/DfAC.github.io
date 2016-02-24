@@ -1,9 +1,9 @@
 # Dependencies
 markdown: kramdown
 kramdown:
-   input: GFM #Markdown  messed up my code blocks
+   input: GFM #Markdown option messed up my code blocks
    hard_wrap: true 
-   highlighter: rouge
+   highlighter: rouge #see https://sacha.me/articles/jekyll-rouge/
 #     parse_block_html: true #fix problems with footnotes and rmd headers display 
 # gems:
 # - jekyll-coffeescript
@@ -12,7 +12,6 @@ kramdown:
 #markdown: redcarpet #not be supported on GitHub Pages after May 1s
 #redcarpet:
 #  extensions: []
-
 #highlighter: pygments #'pygments' highlighter is currently unsupported on GitHub Pages
 
 
@@ -23,7 +22,7 @@ permalink:        pretty
 
 # Setup
 title:            DfAC blog
-tagline:          'Lets talk science and data science'
+tagline:          'From space science to data science'
 description:      'Blog about data science, GNSS and navigation... and probably everything in between.'
 url:              http://DfAC.github.io/
 baseurl:          http://DfAC.github.io/

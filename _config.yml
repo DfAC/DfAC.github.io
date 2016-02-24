@@ -2,7 +2,7 @@
 markdown: kramdown
 kramdown:
    input: Markdown #GFM
-   hard_wrap: false
+   hard_wrap: true #this is what messed up my code blocks
 #     parse_block_html: true #fix problems with footnotes and rmd headers display 
 # gems:
 # - jekyll-coffeescript

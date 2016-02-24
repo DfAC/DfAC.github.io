@@ -1,8 +1,9 @@
 # Dependencies
 markdown: kramdown
 kramdown:
-   input: Markdown #GFM
-   hard_wrap: true #this is what messed up my code blocks
+   input: GFM #Markdown  messed up my code blocks
+   hard_wrap: true 
+   highlighter: rouge
 #     parse_block_html: true #fix problems with footnotes and rmd headers display 
 # gems:
 # - jekyll-coffeescript
@@ -11,7 +12,7 @@ kramdown:
 #markdown: redcarpet #not be supported on GitHub Pages after May 1s
 #redcarpet:
 #  extensions: []
-highlighter:     rouge
+
 #highlighter: pygments #'pygments' highlighter is currently unsupported on GitHub Pages
 
 

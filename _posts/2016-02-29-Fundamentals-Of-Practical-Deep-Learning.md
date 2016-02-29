@@ -5,17 +5,10 @@ tag: deep learning, data science
 category: blog
 comments: True
 ---
-First week of this month I had a pleasure of attending [Fundamentals Of Practical Deep Learning](http://www.meetup.com/Deep-Learning-London/events/227511203/) - a two days course organise by Deep Learning London.
+First week of this month I had a pleasure of attending [Fundamentals Of Practical Deep Learning](http://www.meetup.com/Deep-Learning-London/events/227511203/) - a two days course organise by [Deep Learning London](http://www.meetup.com/Deep-Learning-London/).
 
-My reason for attending was quite simple - I wanted to learn more about deep learning and idealy use it in a small project to start with.  I have attended the few meetups demonstrating and discussing deep learning and felt a need for more substantial effort to understand it. This workshop looks ideal - two days of theory and a practice covering most popular frameworks - Caffe, Thorch and Theano.
+My reason for attending was simple - I wanted to learn more about deep learning and ideally use it in a small project to start with.  I have attended the few meetups demonstrating and discussing deep learning and felt a need for more substantial effort to understand it. This workshop looks ideal - two days of theory and a practice covering most popular frameworks - Caffe, Thorch and Theano.
 
- in order to use itI wanted to learn the basics and
-
-First week of this month (and a few weeks ago) I had pleasure of attending Deep Learning workshop organised by. My goal was simple - to understand more about machine learning and especially deep learning. Not so long ago google open sourced their deep learning library for the python.
-
-I should point out that two day course has been paid for
-
-organised by [Deep Learning London](http://www.meetup.com/Deep-Learning-London/)
 
 ## Was it worth it
 

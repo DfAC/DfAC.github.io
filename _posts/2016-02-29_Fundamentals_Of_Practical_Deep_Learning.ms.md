@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fundamentals Of Practical Deep Learning
-tag: deep learning
+tag: deep learning, data science
 category: blog
 comments: True
 ---

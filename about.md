@@ -30,5 +30,5 @@ Still interested in me? Those links might help:
 * [Stackoverflow](http://stackoverflow.com/users/3126969/dfac)
 * [linkedin](https://uk.linkedin.com/in/lukaszbonenberg)
 * [Research Gate](https://www.researchgate.net/profile/Lukasz_Bonenberg)
-* <a href="https://twitter.com/Yajirunokaze" class="twitter-follow-button" data-show-count="false" data-size="large">Find me on twitter</a>
+* <a href="https://twitter.com/LKBLab" class="twitter-follow-button" data-show-count="false" data-size="large">Find me on twitter</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

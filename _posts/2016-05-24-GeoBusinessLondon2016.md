@@ -6,9 +6,9 @@ category: blog
 comments: True
 ---
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/rslWAughvGQpk5" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/LukaszKosmaBonenberg/superhero-gps" title="Superhero GPS" target="_blank">Superhero GPS</a> </strong> from <strong><a href="//www.slideshare.net/LukaszKosmaBonenberg" target="_blank">Lukasz Kosma Bonenberg</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/rslWAughvGQpk5" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/LukaszKosmaBonenberg/superhero-gps" title="Superhero GPS" target="_blank">
 
-[Geobusiness](http://geobusinessshow.com/) is annual geospatial event consisting of free to access trade show and paid conference. From my experience is the biggest geospatial event in the UK, focused on gathering, storing, processing and delivering of geospatial information. Last year had [had 2k visitors from 47 countries](http://geobusinessshow.com/wp-content/uploads/GEO-Business-2015-Show-Review.pdf) with this year posed to beat this.
+[Geobusiness](http://geobusinessshow.com/) is annual geospatial event consisting of free to access trade show and paid conference. From my experience is the biggest geospatial event in the UK, focused on gathering, storing, processing and delivering of geospatial information. Last year had [had 2 000 visitors from 47 countries](http://geobusinessshow.com/wp-content/uploads/GEO-Business-2015-Show-Review.pdf) with this year posed to beat this.
 Most of attendees focus on exhibition - a large array of [industry's house names, smaller SMS and startups](http://geobusinessshow.com/whos-attending/) got a lot to offer. This year industry's main interest has definitely been UAV and conference has responded by hosting a dedicated UAV + GIS section.
 
 ## Keynotes

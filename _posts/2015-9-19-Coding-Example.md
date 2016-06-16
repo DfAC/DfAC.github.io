@@ -2,7 +2,7 @@
 layout: post
 title: Know your language -- how to get the best out of the programming language
 tag: C, Matlab, GPS
-category: coding, blog
+category: GNSS
 comments: True
 ---
 

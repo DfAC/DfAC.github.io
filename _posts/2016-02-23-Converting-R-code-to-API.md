@@ -2,7 +2,7 @@
 layout: post
 title: Converting R code to API
 tag: R, plumber
-category: blog
+category: code
 comments: True
 ---
 

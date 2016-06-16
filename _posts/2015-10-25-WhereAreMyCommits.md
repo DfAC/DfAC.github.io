@@ -2,7 +2,7 @@
 layout: post
 title: Where are my commits?
 tag: Git, GitHub
-category: coding, blog
+category: code
 comments: True
 ---
 In August I have been very busy coding as a part of [S2DS](http://www.s2ds.org/london.html) but none of my hard work shown on my GitHub contribution panel. Initially I assumed this is because I used private repo. Then I realised that [Lin's commits are showing on hers](http://linbug.github.io/data%20science/2015/09/10/Takeaways-from-S2DS/). I needed to investigate.

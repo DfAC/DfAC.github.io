@@ -2,7 +2,7 @@
 layout: post
 title: Fundamentals Of Practical Deep Learning
 tag: deep learning, data science, conference
-category: blog
+category: conference
 comments: True
 ---
 

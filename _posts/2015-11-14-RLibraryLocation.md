@@ -2,7 +2,7 @@
 layout: post
 title: How to synchronise your R libraries between different PCs
 tag: R,
-category: coding, blog
+category: code
 comments: True
 ---
 

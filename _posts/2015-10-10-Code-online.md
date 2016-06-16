@@ -2,7 +2,7 @@
 layout: post
 title: Publishing your code online
 tag: R, python, jupyter
-category: coding, blog
+category: code
 comments: True
 ---
 My most popular languages for data analysis are python and R. I like them for different reasons, and while recently I use predominantly ipython with pandas, I still think ease of visualising things in R is next to none.

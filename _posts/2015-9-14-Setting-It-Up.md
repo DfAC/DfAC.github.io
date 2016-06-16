@@ -2,7 +2,7 @@
 layout: post
 title: Getting twitter to work
 tag: Jekyll, twitter
-category: blog
+category: code
 comments: True
 ---
 

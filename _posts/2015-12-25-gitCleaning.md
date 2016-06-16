@@ -2,7 +2,7 @@
 layout: post
 title: Making git repos small again
 tag: git, data
-category: blog,code
+category: code
 comments: True
 ---
 

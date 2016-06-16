@@ -2,7 +2,7 @@
 layout: post
 title: Writing articles with markdown
 tag: R, markdown, word
-category: blog,code
+category: code
 comments: True
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Enlighten Us, But Make It Quick
 tag: public speaking, conference, programming
-category: blog, advice
+category: conference
 comments: True
 ---
 

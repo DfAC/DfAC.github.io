@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Geobusiness 2016
-tag: geospatial, conference
-category: blog
+tag: geospatial, conference, GNSS
+category: GNSS
 comments: True
 ---
 

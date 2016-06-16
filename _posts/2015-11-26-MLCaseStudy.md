@@ -2,7 +2,7 @@
 layout: post
 title: Machine Learning Case Study, Week1
 tag: ipython, ML
-category: blog,code
+category: ML
 comments: True
 ---
 

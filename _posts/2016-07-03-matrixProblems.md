@@ -21,7 +21,7 @@ Andrew Ng [Machine Learning course](https://www.coursera.org/learn/machine-learn
 
 Yet as I progressed I realised that there was a problem. During the simple matrix multiplications, results which should be (m,1) become (m,m) To keep the story short - the culprit was using pandas' data frame for matrix operations.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Su_Lin_giant_panda_bear_cub_at_the_San_Diego_Zoo.jpg" alt="The culprit" style="width: 200px;"/ alight = "centre">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Su_Lin_giant_panda_bear_cub_at_the_San_Diego_Zoo.jpg" alt="The culprit" style="width: 200px;"/ alight = "left">
 
 
 

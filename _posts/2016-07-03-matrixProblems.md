@@ -20,7 +20,7 @@ For more in-depth comparison I also suggest [reading this post](http://www.pyzo.
 Andrew Ng [Machine Learning course](https://www.coursera.org/learn/machine-learning/home/welcome) is based on Matlab. I decided to try to do it both in Matlab and python. I was not the first, [Lyn did it last year](http://linbug.github.io/data%20science%20tools/2015/07/07/Coursera's-machine-learning-exercise-one-(in-Python)/).
 
 Yet as I progressed I realised that there was a problem. During the simple matrix multiplications, results which should be (m,1) become (m,m) To keep the story short - the culprit was using pandas' data frame for matrix operations.
-
+![]("https://upload.wikimedia.org/wikipedia/commons/3/3a/Su_Lin_giant_panda_bear_cub_at_the_San_Diego_Zoo.jpg" "The culprit")
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Su_Lin_giant_panda_bear_cub_at_the_San_Diego_Zoo.jpg" alt="The culprit" style="width: 200px;"/ alight = "left">
 
 

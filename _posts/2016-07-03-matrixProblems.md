@@ -33,7 +33,7 @@ import numpy as np
 
 data = pd.read_csv('ex1data1.txt', header = None)
 # assign the first and second columns to the variables X and y, respectively
-X = data.iloc[:,0]
+X = np.c_[np.ones(data.shape[0]), data.iloc[:,0] ] 
 y = data.iloc[:,1]
 
 v = X.dot(theta) - y
@@ -50,8 +50,8 @@ Matrix operations are done using numpy. It is more correct to simplify pandas da
 ```
 data = pd.read_csv('ex1data1.txt', header = None)
 # assign the first and second columns to the variables X and y, respectively
-X = np.c_[np.ones(data.shape[0]),data.X] 
-y = np.c_[data.y]
+X = np.c_[np.ones(data.shape[0]), data.iloc[:,0] ] 
+y = np.c_[data.iloc[:,0]]
 
 X.dot(theta)-y #residuals
 ```

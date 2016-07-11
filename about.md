@@ -27,8 +27,13 @@ Want more information? Just google for "sexiest job of 21st century" or "data is
 Still interested in me? Those links might help:
 
 * [Github](https://github.com/DfAC/)
+* <a href="https://twitter.com/LKBLab" class="twitter-follow-button" data-show-count="false" data-size="large">Find me on twitter</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 * [Stackoverflow](http://stackoverflow.com/users/3126969/dfac)
 * [linkedin](https://uk.linkedin.com/in/lukaszbonenberg)
 * [Research Gate](https://www.researchgate.net/profile/Lukasz_Bonenberg)
-* <a href="https://twitter.com/LKBLab" class="twitter-follow-button" data-show-count="false" data-size="large">Find me on twitter</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+My slides can be found [slideshare](http://www.slideshare.net/LukaszKosmaBonenberg) or below:
+
+<iframe src="http://www.slideshare.net/LukaszKosmaBonenberg/slideshelf" width="450px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+

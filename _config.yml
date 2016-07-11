@@ -4,7 +4,10 @@ kramdown:
    input: GFM #Markdown option messed up my code blocks
    hard_wrap: true 
    highlighter: rouge #see https://sacha.me/articles/jekyll-rouge/
-#     parse_block_html: true #fix problems with footnotes and rmd headers display 
+   exclude: [src, .editorconfig, .gitignore, CNAME, Gemfile, Gemfile.lock, README.md]
+   parse_block_html: true #fix problems with footnotes and rmd headers display 
+timezone: UTC
+
 # gems:
 # - jekyll-coffeescript
 # - jekyll-paginate

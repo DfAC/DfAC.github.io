@@ -14,12 +14,11 @@ I currently work at the University of Nottingham.
 
 #### So why [data science](https://en.wikipedia.org/wiki/Data_science)?
 
-Because its a blend of programming, statistics, industry specific knowledge, mixed by the lateral thinking and sparkled with the curiosity of the mind. In short, its exciting. And I am not the only one thinking this way. 
+Data science is a blend of programming, statistics, industry specific knowledge, mixed with the lateral thinking and sparkled with the curiosity of the mind. In short, it is very exciting and actively developing - just check how many [Ycombinator](https://www.ycombinator.com/) startups has data science at heart.
 
-How does it relate to my interest described above? Data science is multi disciplinary, relaying on industry-related knowledge, yet in the same time it is highly disruptive. Just see how many [Ycombinator](https://www.ycombinator.com/) startups has data science at heart.
-Data science is not a magical black box. There is a lot of research, knowledge and hard work backing it up to make it successfully.
+Data science is multi-disciplinary, using data analysis,  lateral thinking and industry-related knowledge to create new insights. This is where PhD level analysis and interpretation skills come into play. Data science is not a magical black box. There is a lot of research, knowledge and hard work backing it up to make it successfully.
 
-Want more information? Just google for "sexiest job of 21st century" or "data is new oil". Or read [Lin's blog](http://linbug.github.io).
+Want more information? Google for "sexiest job of the 21st century", "data is new oil" or read [Lin's blog](http://linbug.github.io).
 
 
 ### Me again
@@ -32,7 +31,6 @@ Still interested in me? Those links might help:
 * [Stackoverflow](http://stackoverflow.com/users/3126969/dfac)
 * [linkedin](https://uk.linkedin.com/in/lukaszbonenberg)
 * [Research Gate](https://www.researchgate.net/profile/Lukasz_Bonenberg)
-
-My slides can be found [slideshare](http://www.slideshare.net/LukaszKosmaBonenberg) or below:
+* My slides can be found [slideshare](http://www.slideshare.net/LukaszKosmaBonenberg) or below:
 
 <iframe src="http://www.slideshare.net/LukaszKosmaBonenberg/slideshelf" width="760px" height="570px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>

@@ -163,7 +163,7 @@ O'Reilly requested a presentation in Microsoft PowerPoint format. As discussed b
 My final presentation can be found at [Slideshare](http://www.slideshare.net/LukaszKosmaBonenberg/superhero-gps) as well as embedded below: 
 
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/rslWAughvGQpk5" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+![](http://29jedk1t4b4k3o7vu2867f4z.wpengine.netdna-cdn.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-20-at-11.08.35-AM.png "Story cycle")
 
 
 You might notice I put the title and my name on the last slide. I did this to improve the flow at the beginning of the presentation and to give myself time to wrap up and reiterate the main takeaway. Before sending it to the organisers I had practised my talk on two screens. The last few days before the conference I spent practising it.

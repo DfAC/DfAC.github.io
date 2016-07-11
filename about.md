@@ -36,4 +36,3 @@ Still interested in me? Those links might help:
 My slides can be found [slideshare](http://www.slideshare.net/LukaszKosmaBonenberg) or below:
 
 <iframe src="http://www.slideshare.net/LukaszKosmaBonenberg/slideshelf" width="760px" height="570px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
-

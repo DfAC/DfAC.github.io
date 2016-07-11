@@ -75,6 +75,7 @@ Let's get down to technical details.
 * Think **why** someone would be interested and what will be their main **takeaway** from the talk, this [blog post might help](http://www.markpollard.net/8-tips-for-your-ignite-presentation/). Discuss your topic with somebody outside of your field to check if this is really the case.
 * Consider your topic as a story, think of your idea (topic) as one of the [hero archetype](http://www.soulcraft.co/essays/the_12_common_archetypes.html) and follow story cycle from [Park Howell blog](http://businessofstory.com/the-story-cycle-a-simple-10-step-storytelling-process-to-create-abundance-in-your-business/).
 
+
 <img src="http://29jedk1t4b4k3o7vu2867f4z.wpengine.netdna-cdn.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-20-at-11.08.35-AM.png" alt="Story cycle" style="width: 350px;"/ alight = "left">
 
 This should be enough to write a short summary and describe what you are going to present. My abstract can be found on [S+H World London Ignite schedule page](http://conferences.oreilly.com/strata/hadoop-big-data-eu/public/schedule/detail/51480). Apart from it I wrote 300 words summary.

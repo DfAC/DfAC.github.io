@@ -15,13 +15,13 @@ Recently, I have found [stackoverflow solution](http://stackoverflow.com/questio
 * identified which paths to keep. In my case it keep R original library but removed link to my documents;
 * found R-Home path using *R.home()* or *Sys.getenv("R_HOME")*;
 	* R-Home\R-3.2.2\etc\Rprofile.site is read every time R kernel starts, so any modification will be persistent to every run of R
-* edited R-Home\R-3.2.2\etc\Rprofile.site by adding
+* edited R-Home\R-3.2.2\etc\Rprofile.site by adding[^]
 
- 	```
-	# set library paths
-	.libPaths(.libPaths()[2])
-	.libPaths("d:/tmp/Dropbox/Programming/R/win-librar")
- 	```
+```
+# set library paths
+.libPaths(.libPaths()[2])
+```
 	
-* note that I use Unix path notation despite using windows. R always use Unix notation, regardless of operating system. Also don't add final "\".
-* restarted R (Ctr+Shift+F10)
+* restarted R (Ctr+Shift+F10).
+
+[^]: note that I use Unix path notation despite using windows. R always use Unix notation, regardless of operating system. Also don't add final "\".

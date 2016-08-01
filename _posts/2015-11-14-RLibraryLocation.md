@@ -12,8 +12,7 @@ I am using my R on a few computers (sometimes in the same time) and I do find it
 Recently, I have found [stackoverflow solution](http://stackoverflow.com/questions/15217758/remove-a-library-from-libpaths-permanently-without-rprofile-site) and [this blog post](http://blog.revolutionanalytics.com/2015/11/r-projects.html) which made me re-visit problem again. Workflow below, shows my current solution:
 
 * used *.libPaths()* inside R to check current library paths;
-* identified which paths to keep. In my case it keep R original library but removed link to my documents
-	* note that 
+* identified which paths to keep. In my case it keep R original library but removed link to my documents;
 * found R-Home path using *R.home()* or *Sys.getenv("R_HOME")*;
 	* R-Home\R-3.2.2\etc\Rprofile.site is read every time R kernel starts, so any modification will be persistent to every run of R
 * edited R-Home\R-3.2.2\etc\Rprofile.site by adding
@@ -22,7 +21,7 @@ Recently, I have found [stackoverflow solution](http://stackoverflow.com/questio
 	# set library paths
 	.libPaths(.libPaths()[2])
 	.libPaths("d:/tmp/Dropbox/Programming/R/win-librar")
-	```
+ 	```
 	
-	* note that I use Unix path notation despite using windows. R always use Unix notation, regardless of operating system. Also don't add final "\".
+* note that I use Unix path notation despite using windows. R always use Unix notation, regardless of operating system. Also don't add final "\".
 * restarted R (Ctr+Shift+F10)

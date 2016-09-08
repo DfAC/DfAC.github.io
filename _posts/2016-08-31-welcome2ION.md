@@ -13,7 +13,7 @@ This September I will be attending ION GNSS+ 2016, taking place September 12-16 
 
 ION GNSS+ 2016 is the world’s largest technical conference focusion of different means of navigation. This is where a new GNSS and navigation technologies are showcased and discussed for the first time. This year is special as ION will be celebrating 30 years of ION conferences (changing name from ION GPS through ION GNSS to ION GNSS+, showing the growth of importance of other constellations and navigation sensors such as [IMS](https://en.wikipedia.org/wiki/Inertial_navigation_system) or [Locata](http://www.locata.com/technology/)[^1]). This will involve 1980's style celebration, featuring the decade's best food, games, and music. 
 
-![Alt text](./pics/ION2016_speaker.jpg "ION GNSS+ 2016")
+![Alt text](https://raw.githubusercontent.com/DfAC/DfAC.github.io/master/pics/ION2016_speaker.jpg "ION GNSS+ 2016")
 
 ## My paper
 
